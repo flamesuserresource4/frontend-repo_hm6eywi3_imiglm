@@ -1,6 +1,7 @@
 import Hero from './components/Hero'
 import KPIs from './components/KPIs'
 import AIInsights from './components/AIInsights'
+import AdvancedAI from './components/AdvancedAI'
 import AutomationPanel from './components/AutomationPanel'
 import DataQuickAdd from './components/DataQuickAdd'
 
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <KPIs />
       <AIInsights />
+      <AdvancedAI />
       <AutomationPanel />
       <DataQuickAdd />
       <footer className="container mx-auto px-6 py-10 text-xs text-slate-400">
